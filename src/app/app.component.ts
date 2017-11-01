@@ -23,16 +23,12 @@ export class AppComponent implements OnInit {
 }
 searchCourse(course) {
   this.mycourse = course;
-  this.cebrokerProvider.getCourse(this.page, course).then((data) => {
+  this.cebrokerProvider.getCourse(course).then((data) => {
   this.coursesInfo = data;
   this.ready = true;
   console.log(this.coursesInfo);
     }).catch((error) => {
   console.log(error)
     })
-  }
-  getPage(page) {
-    this.page = page;
-    this.searchCourse(this.mycourse);
   }
 }
