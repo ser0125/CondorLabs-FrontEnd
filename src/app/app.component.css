@@ -79,7 +79,7 @@ h3{
     color: lightgrey;
 }
 .media-left{
-width: 30%;
+width: 34%;
 }
 .media-left img{
     width: 100%;
@@ -100,7 +100,22 @@ p{
 .single-course{
     display: inline-block;
     width:33.333%;
+     padding: 20px;
 }
 .single-course h4{
-    padding: 20px;
+    height: 38px;
+    overflow: hidden;
 }    
+.subtitle{
+    color:#c7c7c7;
+}
+.media-body{
+    padding:10px;
+}
+.totalItems{
+    color : #48C9B0;
+    margin-top: 60px;
+}
+.results{
+    color:#c7c7c7;
+}

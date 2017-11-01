@@ -21,6 +21,7 @@ export class AppComponent implements OnInit {
 searchCourse(course) {
   this.cebrokerProvider.getCourse(course).then((data) => {
   this.coursesInfo = data;
+  this.ready = true;
   console.log(this.coursesInfo);
     }).catch((error) => {
   console.log(error)

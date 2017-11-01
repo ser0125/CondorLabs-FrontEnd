@@ -35,7 +35,7 @@
       <h1>Course Search</h1>
       <div class="form-group">
         <input type="text" [(ngModel)]="course" class="form-control" placeholder="Search courses and providers...">
-        <span><button class= "btn btn-info" (click)="searchCourse(course); ready=true"><span class="glyphicon glyphicon-search"></span></button>
+        <span><button class= "btn btn-info" (click)="searchCourse(course)"><span class="glyphicon glyphicon-search"></span></button>
         </span>
       </div>
       <div id="information">
@@ -52,7 +52,7 @@
             </div>
             <div class="media-body">
               <h4 class="media-heading">{{featuredCourse.coursePublication.course.name}}</h4>
-              <p>{{featuredCourse.coursePublication.course.provider.name}}</p>
+              <p class="subtitle">{{featuredCourse.coursePublication.course.provider.name}}</p>
               <p>{{featuredCourse.coursePublication.course.name}} </p>
               <hr>
               <button class="btn btn-info">$23.22</button>
@@ -60,10 +60,10 @@
           </div>
         </div>
         <div class="coursesInfo" *ngIf="ready">
-        <h2>{{coursesInfo.totalItems}}</h2>
+        <h4 class="totalItems">{{coursesInfo.totalItems}}<span class="results"> Results</span></h4>
         <div class="single-course" *ngFor="let courseInfo of coursesInfo.items">
           <h4>{{courseInfo.course.name}}</h4>
-          <p>NATIONAL HEALTHCARE INSTITUTE, INC.</p>
+          <p class="subtitle">NATIONAL HEALTHCARE INSTITUTE, INC.</p>
           <p>27 Hrs • Computer-Based Training </p>
           <hr>
           <button class="btn btn-info">$23.22</button>
