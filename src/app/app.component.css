@@ -64,3 +64,43 @@ h1{
     text-align: center;
     color: white;
 }
+.courses{
+    
+    margin-left:80px;
+    margin-right:80px;
+}
+.background{
+    background-color: #EBF5FB;
+}
+h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 40px;
+    color: lightgrey;
+}
+.media-left{
+width: 30%;
+}
+.media-left img{
+    width: 100%;
+}
+.media,.single-course{
+    border: 1px solid #ddd;
+    background-color: white;
+}
+h4{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+p{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.single-course{
+    display: inline-block;
+    width:33.333%;
+}
+.single-course h4{
+    padding: 20px;
+}    

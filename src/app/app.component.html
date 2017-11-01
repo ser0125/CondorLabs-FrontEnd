@@ -39,8 +39,35 @@
         </span>
       </div>
       <div id="information">
-          Florida | Registered Nurse Florida
+        Florida | Registered Nurse Florida
       </div>
     </div>
+    <div class="background">
+      <div class="courses">
+        <div class="featured-courses">
+          <h3>Featured Courses</h3>
+          <div class="media" *ngFor="let featuredCourse of featuredCourses">
+            <div class="media-left">
+              <img src ="https://storage.cebroker.com/CEBroker/{{featuredCourse.coursePublication.course.featuredBanner}}" class="media-object">
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">{{featuredCourse.coursePublication.course.name}}</h4>
+              <p>{{featuredCourse.coursePublication.course.provider.name}}</p>
+              <p>{{featuredCourse.coursePublication.course.name}} </p>
+              <hr>
+              <button class="btn btn-info">$23.22</button>
+            </div>
+          </div>
+        </div>
+        <h2>19930 Results</h2>
+        <div class="single-course">
+          <h4>Complete Florida Nursing CE Bundle Including Mandatory Courses</h4>
+          <p>NATIONAL HEALTHCARE INSTITUTE, INC.</p>
+          <p>27 Hrs • Computer-Based Training </p>
+          <hr>
+          <button class="btn btn-info">$23.22</button>
+        </div>
+    </div>
   </div>
+</div>
 </div>
