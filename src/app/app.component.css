@@ -32,3 +32,35 @@
     width: 200px;
     height: 40px;
 }
+#search{
+    background-image: url("http://www.msvu.ca/site/media/msvu/NEWBanner%205.jpg");
+    background-size: cover;
+    padding-top:140px;
+    padding-bottom: 60px;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.form-group{
+    width:500px;
+    margin: 0px auto 10px;
+}
+.form-control{
+    width: 90%;
+    display:inline-block;
+}
+.btn-info{
+    background-color:#48C9B0;
+    margin-left: -6px;
+    margin-top: -3px;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0
+}
+.btn-info:hover{
+    border-color: transparent;
+}
+#information{
+    text-align: center;
+    color: white;
+}
