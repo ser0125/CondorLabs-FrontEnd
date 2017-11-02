@@ -22,3 +22,5 @@ Finally open
   ```
 http://localhost:4200/
   ```
+You can look the test develop in Heroku!!
+[![Heroku](https://heroku-badge.herokuapp.com/?app=heroku-badge&style=flat)](https://condorlabs-frontend.herokuapp.com/)
